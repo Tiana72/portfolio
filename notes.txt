@@ -1,0 +1,45 @@
+Генератор фавиконок realfavicongenerator.net 
+Но достаточно:
+<link rel="icon" type="image/x-icon" href="./img/icons/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+Сервис по превью opengraph на разных платформах opengraph.xyz
+
+Ссылки на мессенждеры
+
+Telegram
+tg://resolve?domain=youraccountname
+
+WhatsApp
+https://wa.me/79051234567
+
+Viber
+viber://add?number=79051234567
+
+Вконтакте
+https://vk.me/youraccountname
+
+Ссылка на email почту
+mailto:info@yourmail.com
+
+Ссылка на email с темой письма и сообщением
+mailto:info@yourmail.com?subject=Вопрос%20с%20сайта&body=Здравствуйте
+
+Пробел конвертируем в %20. Таблица с кодировкой символов https://www.w3schools.com/tags/ref_urlencode.asp.
+
+Ссылка на номер телефона
+tel:+79051324567
+
+Ayu - mirage bordered
+Groovebox
+
+
+Закрепить шапку: 
+
+в CSS надо к header написать свойство  Position: sticky;  и Top: 0;
+Если ваша шапка скролится и вдруг останавливается в определенном блоке при попытке скролле страницы то можете добавить такие свойства Position: fixed;
+Width: 100%; ( или Top: 0; Left: 0;)
+заменив с Position: sticky;  и Top: 0;
+То есть если не работает Position: sticky; Top: 0;  то можете использовать Position: fixed; Top: 0; Left: 0;
+И да можете добавить width: 100%; на всякий случай.
+А да кстати не забудь свойство z-index: 1000; что бы твоя шапка не сливалась с контентом при прокрутке)
